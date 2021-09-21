@@ -1,0 +1,13 @@
+void main() {
+  for (int i = 1; i < 101; i++) {
+    if(i%3 == 0 && i%5 != 0){
+      print(i.toString() + ' Bud');
+    }else if(i%3 != 0 && i%5 == 0){
+      print(i.toString() + ' Vue');
+    }else if(i%3 == 0 && i%5 == 0){
+      print(i.toString() + ' Budvue should consider Mingyang for this position');
+    }else{
+      print(i.toString());
+    }
+  }
+}
